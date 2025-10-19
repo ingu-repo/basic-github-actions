@@ -4,6 +4,11 @@ import 'express-async-errors'
 import morgan from 'morgan'
 import { sum } from './sum'
 
+/**
+ * http://localhost:8080/api/sum?input1=1&input2=2
+ * 
+ */
+
 const PORT = process.env.PORT ?? 8080
 // フロントエンドの URL を 'http://frontend.example.com' のように指定してください。
 const CORS_ORIGIN = undefined
